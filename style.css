@@ -1,0 +1,75 @@
+body {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.rock,
+.paper,
+.scissors {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    margin: 5px;
+}
+
+.rock img {
+    width: 50px;
+}
+
+.paper img {
+    width: 50px;
+}
+
+.scissors img {
+    width: 50px;
+}
+
+.game {
+    color: #fff;
+}
+
+.score {
+    color: #fff;
+}
+
+.reset,
+.autoplay {
+    background-color: rgb(128, 240, 212);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.reset:hover {
+    opacity: 0.5;
+}
+
+.result {
+    color: #eee;
+}
+
+img {
+    width: 35px;
+}
+
+.result {
+    font-size: 2rem;
+}
+
+.score {
+    font-size: 1.5rem;
+}
